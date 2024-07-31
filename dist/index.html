@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-slate-800 text-white">
+
+    <div class="border-white border-2 w-fit flex flex-col text-center gap-3 absolute top-[50%] left-[50%] p-5 translate-x-[-50%] translate-y-[-50%] rounded-md">
+        <h1 class="font-mono text-4xl font-bold">To Do List</h1>
+        <!-- Search div -->
+        <div class="flex justify-between gap-5 my-6">
+            <input type="text" id="input" class="border-none bg-white-400 text-black px-1 py-1.5 rounded-md w-5/6" placeholder="Enter new task">
+            <button id="add-btn" class="px-6 rounded-md bg-indigo-400 font-bold hover:bg-indigo-700">Add</button>
+        </div>
+
+        <!-- tasks div -->
+         <div class="flex flex-col w-fit gap-4 " id="tasks-div">
+        
+         </div>
+
+         <!-- Button to clear all -->
+          <button id="clear-all" class="border-2 border-white w-fit m-auto px-2 py-1 bg-slate-400 text-black font-semibold rounded-md mt-6 hover:bg-transparent hover:text-white" >Clear All</button>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
