@@ -1,5 +1,0 @@
-*.json
-tailwind.config.js
-src
-node_modules
-output.css
